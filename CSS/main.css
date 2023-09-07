@@ -9,6 +9,7 @@ main {
 
 .main-content-card {
     display: flex;
+    margin-top: 50px;
     justify-content: space-between;
 }
 
@@ -35,5 +36,9 @@ main {
     .card-content, .card-image {
         width: 100%;
         padding: 0;
+    }
+
+    .card-content {
+        order: 1;
     }
 }
